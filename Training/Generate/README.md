@@ -72,8 +72,9 @@ bash video2images_query.sh
 bash video2images_ref.sh
 ```
 3. Select one image from each video to train:
-
-
+```
+bash select_training_reference.sh
+```
 4. Generate the training set (from reference images) with $40,109 \times 20 = 802,180$ images:
 
 

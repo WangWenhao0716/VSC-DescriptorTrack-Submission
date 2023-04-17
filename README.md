@@ -41,4 +41,6 @@ The ```Test``` folder shows the submitted code to extract query features plus th
 }
 ```
 
+## Bug finding
+Please raise an issue or send an email to wangwenhao0716@gmail.com if a bug exists. Thanks!
 

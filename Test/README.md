@@ -63,7 +63,7 @@ bash black_pad_reference_test_dist.sh
 ```
 (2) Use yolov5 to detect:
 
-Download ```deblack_20230107.pt``` from [Google Drive]().
+Download ```deblack_20230107.pt``` from [Google Drive](https://drive.google.com/file/d/1Nn6xXh1I9Fp0hUpHjGEqeikCa8Wkzgif/view?usp=share_link).
 ```
 CUDA_VISIBLE_DEVICES=0 python detect.py \
 --source /raid/VSC/data/test/reference_one_second_imageio_v3_pad/ \

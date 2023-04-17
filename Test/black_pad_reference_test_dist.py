@@ -34,8 +34,8 @@ aa('--num', default=0, type=int, help="The begin number ")
 args = parser.parse_args()
 
 num = args.num
-begin = num * (len(ls)//200 + 1)
-end = (num+1) * (len(ls)//200 + 1)
+begin = num * (len(ls)//100 + 1)
+end = (num+1) * (len(ls)//100 + 1)
 
 os.makedirs('/raid/VSC/data/test/reference_one_second_imageio_v3_pad', exist_ok = True)
 for i in range(begin, end):

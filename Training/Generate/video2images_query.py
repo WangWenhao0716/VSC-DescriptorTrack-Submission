@@ -6,8 +6,8 @@ import numpy as np
 from PIL import Image
 import argparse
 
-path = '../data/train/query/'
-path_save = '../data/train/query_one_second_imageio_v3/'
+path = '/raid/VSC/data/train/query/'
+path_save = '/raid/VSC/data/train/query_one_second_imageio_v3/'
 
 ls = sorted(os.listdir(path))
 os.makedirs(path_save, exist_ok = True)

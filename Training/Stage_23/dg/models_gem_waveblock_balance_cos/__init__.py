@@ -3,6 +3,7 @@ from __future__ import absolute_import
 from .resnet import *
 from .resnet_double import *
 from .resneXt import *
+from .resneXt_double import *
 from .vit import *
 from .vit_double import vit_base_double
 from .swin import swin_base
@@ -17,6 +18,7 @@ __factory = {
     'resnet50': resnet50,
     'resnet50_double': resnet50_double,
     'resneXt50': resneXt50,
+    'resneXt50_double': resneXt50_double,
     'cotnet50': cotnet50,
     'cotnet50_pro': cotnet50_pro,
     'sknet50': sknet50,

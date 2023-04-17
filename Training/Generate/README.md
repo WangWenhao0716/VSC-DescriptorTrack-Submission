@@ -85,7 +85,7 @@ bash select_training_reference.sh
 bash train_v1_s3_r_all.sh
 ```
 
-5. Generate the training pairs (from reference images and query images) with $?$ positive pairs:
+5. Generate the training pairs (from reference images and query images) with $31,425$ positive pairs:
 ```
 python generate_pair.py
 ```

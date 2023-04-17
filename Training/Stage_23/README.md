@@ -42,12 +42,12 @@ bash train_50SK.sh
 ## Clean:
 
 ```
-bash clean_swin.sh
-bash clean_vit.sh
-bash clean_t2t.sh
-bash clean_50.sh
-bash clean_50X.sh
-bash clean_50SK.sh
+python clean_swin.py
+python clean_vit.py
+python clean_t2t.py
+python clean_50.py
+python clean_50X.py
+python clean_50SK.py
 ```
 
 ## Conclusion:

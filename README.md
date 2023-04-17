@@ -10,7 +10,7 @@ We use 6 pre-trained models. Please download them from the provided links as bel
 
 1. ResNet50: No need to download manually;
 
-2. SKNet50: [Google Drive](https://drive.google.com/file/d/1h6V3zhWGB_kCAIuXimPWKZnLlu21T7T8/view?usp=share_link)
+2. SKNet50: [Google Drive](https://drive.google.com/file/d/1h6V3zhWGB_kCAIuXimPWKZnLlu21T7T8/view?usp=share_link);
 
 3. Resnext50_32x4d: No need to download manually;
 

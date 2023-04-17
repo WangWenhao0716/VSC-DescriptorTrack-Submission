@@ -6,7 +6,9 @@ To begin with, you should follow the [official environment](https://github.com/d
 
 ## Pre-trained models
 
-We use 6 pre-trained models. Please download them from the provided links as below:
+We use 7 ImageNet-pre-trained models. Please download them from the provided links as below:
+
+0. CotNet50: [Google Drive](https://drive.google.com/file/d/1-CVORVrELHFph45VNgAJmz_Fg8XHCxO1/view?usp=share_link);
 
 1. ResNet50: No need to download manually;
 

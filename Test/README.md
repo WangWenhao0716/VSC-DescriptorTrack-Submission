@@ -83,9 +83,6 @@ bash t2t_test_ref.sh
 bash 50_test_ref.sh
 bash 50X_test_ref.sh
 bash 50SK_test_ref.sh
-```
-Then:
-```
 python agg_test_ref.py
 ```
 You will get ```reference_descriptors.npz``` in the submission file.

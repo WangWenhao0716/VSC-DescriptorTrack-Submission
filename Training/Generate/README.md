@@ -25,7 +25,7 @@ We assume that, after downloading, we have:
 6. ```/raid/VSC/data/train/query``` contains the query images for training.
 
 
-## Generate the training data
+## Generate the training data from DISC21
 
 We use a server which can run 250 processes at once. Hope your server is also powerful!
 
@@ -59,6 +59,6 @@ Traceback (most recent call last):
     text, im.id, mode, direction, features, language, stroke_width, ink
 OSError: raster overflow
 ```
-You should re-run the ```bash xxx.sh``` until the number of images in ```/raid/VSC/images/train_v1_s27_all/train_v1_s27_all/``` or ```/raid/VSC/images/train_v1_s3_all/train_v1_s3_all/``` equals to $2,000,000$
+You should re-run the ```bash xxx.sh``` until the number of images in ```/raid/VSC/images/train_v1_s27_all/train_v1_s27_all/``` or ```/raid/VSC/images/train_v1_s3_all/train_v1_s3_all/``` equals to $2,000,000$. If you know how to fix this random bug, please let me know (wangwenhao0716@gmail.com).
 
 

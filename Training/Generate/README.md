@@ -24,6 +24,8 @@ We assume that, after downloading, we have:
 
 6. ```/raid/VSC/data/train/query``` contains the query images for training.
 
+7. ```/raid/VSC/data/train/train_matching_ground_truth.csv``` is the ground truth file for the training set.
+
 
 ## Generate the training data from DISC21
 

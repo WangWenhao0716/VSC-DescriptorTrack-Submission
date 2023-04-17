@@ -21,4 +21,10 @@ bash video2images_ref.sh
 ```
 Note we have transformed the ```/raid/VSC/data/train/reference/``` into images in the training section.
 
-2. 
+2. Get the training reference features (normalization features) by:
+
+```
+
+```
+
+3. 

@@ -90,5 +90,5 @@ bash train_v1_s3_r_all.sh
 python generate_pair.py
 python shuffle.py
 ```
-In this step, we also generate ```pull_gt_all_shuffle_q.py``` and ```pull_gt_all_shuffle_r.py```.
+In this step, we also generate ```pull_gt_all_shuffle_q.pickle``` and ```pull_gt_all_shuffle_r.pickle```.
 

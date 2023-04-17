@@ -24,7 +24,7 @@ We use 7 ImageNet-pre-trained models. Please download them from the provided lin
 
 ## Training
 
-For training, we propose Feature-compatible Progressive Learning (FCPL). Please refer to the ```Training``` folder for more details.
+For training, we propose Feature-Compatible Progressive Learning (FCPL). Please refer to the ```Training``` folder for more details.
 
 ## Test
 

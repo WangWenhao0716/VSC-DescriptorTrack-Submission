@@ -21,3 +21,5 @@ import torch
 mod = torch.load('logs/train_v1_s27_all_bw/50C_two_losses_m0.6/checkpoint_24_ema.pth.tar',map_location='cpu')
 torch.save(mod['state_dict'], 'logs/train_v1_s27_all_bw/50C_two_losses_m0.6/train_v1_50C_s27_512_twolosses_m0.6_all_bw.pth.tar')
 ```
+
+The model ```train_v1_50C_s27_512_twolosses_m0.6_all_bw.pth.tar``` is regarded as the base model for the next stages.

@@ -19,7 +19,18 @@ bash train_swin.sh
 bash train_vit.sh
 bash train_t2t.sh
 ```
-Plea
+Please change ```dg/trainers_cos_ema_tune_gt_ng_cls.py```:
+
+Line 127 from 
+```
+loss = loss_ce + loss_ce_1 + loss_ce_small + loss_ce_small_1 + 100 * loss_sp + 1 * (loss_gt - loss_ng)
+```
+to 
+```
+loss = loss_ce + loss_ce_1 + loss_ce_small + loss_ce_small_1 + 100 * loss_sp + 2 * (loss_gt - loss_ng)
+```
+before the training of CNN-based methods.
+
 ```
 bash train_50.sh
 bash train_50X.sh

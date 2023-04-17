@@ -61,4 +61,19 @@ OSError: raster overflow
 ```
 You should re-run the ```bash xxx.sh``` until the number of images in ```/raid/VSC/images/train_v1_s27_all/train_v1_s27_all/``` or ```/raid/VSC/images/train_v1_s3_all/train_v1_s3_all/``` equals to $2,000,000$. If you know how to fix this random bug, please let me know (wangwenhao0716@gmail.com).
 
+## Generate the training data from VSC
+
+1. Transfer the query videos into images using ```imageio```:
+
+2. Transfer the reference videos into images using ```imageio```:
+
+
+3. Select one image from each video to train:
+
+
+4. Generate the training set (from reference images) with $40,109 \times 20 = 802,180$ images:
+
+
+5. Generate the training pais (from reference images and ) with $?$ positive pairs:
+
 

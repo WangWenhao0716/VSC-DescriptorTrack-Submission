@@ -36,4 +36,29 @@ bash train_v1_s27_all_bw.sh
 bash train_v1_s3_all_bw.sh
 ```
 
+A known issue brought by Augly package is:
+```
+Traceback (most recent call last):
+  File "train_v1_s27_all.py", line 462, in <module>
+    image_q = transform_q(image)
+  File "/home/wangwenhao/anaconda3/envs/ISC/lib/python3.7/site-packages/torchvision/transforms/transforms.py", line 60, in __call__
+    img = t(img)
+  File "train_v1_s27_all.py", line 190, in __call__
+    y_pos = y_pos)(x)
+  File "/home/wangwenhao/anaconda3/envs/ISC/lib/python3.7/site-packages/augly/image/transforms.py", line 64, in __call__
+    return self.apply_transform(image, metadata, bboxes, bbox_format)
+  File "/home/wangwenhao/anaconda3/envs/ISC/lib/python3.7/site-packages/augly/image/transforms.py", line 1490, in apply_transform
+    bbox_format=bbox_format,
+  File "/home/wangwenhao/anaconda3/envs/ISC/lib/python3.7/site-packages/augly/image/functional.py", line 1606, in overlay_text
+    font=font,
+  File "/home/wangwenhao/anaconda3/envs/ISC/lib/python3.7/site-packages/PIL/ImageDraw.py", line 463, in text
+    draw_text(ink)
+  File "/home/wangwenhao/anaconda3/envs/ISC/lib/python3.7/site-packages/PIL/ImageDraw.py", line 418, in draw_text
+    **kwargs,
+  File "/home/wangwenhao/anaconda3/envs/ISC/lib/python3.7/site-packages/PIL/ImageFont.py", line 677, in getmask2
+    text, im.id, mode, direction, features, language, stroke_width, ink
+OSError: raster overflow
+```
+You should re-run the ```bash xxx.sh``` until the number of images in ```/raid/VSC/images/train_v1_s27_all/train_v1_s27_all/``` or ```/raid/VSC/images/train_v1_s3_all/train_v1_s3_all/``` equals to $2,000,000$
+
 

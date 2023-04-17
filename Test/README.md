@@ -54,3 +54,23 @@ python agg_train_ref.py
 You will get ```ensemble_6_t_512_crop_rotate_bw_gt_ng_1_cls_FIN.hdf5``` in the submission file.
 
 3. Get the test reference features:
+
+we first delete the black images:
+
+(1) Generate pad images:
+```
+bash black_pad_reference_test_dist.sh
+```
+(2) Use yolov5 to detect:
+
+Download ```deblack_20230107.pt``` from [Google Drive]().
+```
+CUDA_VISIBLE_DEVICES=0 python detect.py \
+--source /raid/VSC/data/test/reference_one_second_imageio_v3_pad/ \
+--weights deblack_20230107.pt --conf 0.1 
+```
+(3) Get final images:
+```
+python generate_deblack_reference_test.py
+```
+

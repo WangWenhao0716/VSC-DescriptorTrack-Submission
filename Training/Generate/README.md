@@ -75,5 +75,5 @@ You should re-run the ```bash xxx.sh``` until the number of images in ```/raid/V
 
 
 5. Generate the training pais (from reference images and ) with $?$ positive pairs:
-
+ 
 

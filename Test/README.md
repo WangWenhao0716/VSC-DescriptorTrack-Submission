@@ -55,7 +55,7 @@ You will get ```ensemble_6_t_512_crop_rotate_bw_gt_ng_1_cls_FIN.hdf5``` in the s
 
 3. Get the test reference features:
 
-we first delete the black images:
+We first delete the black images:
 
 (1) Generate pad images:
 ```
@@ -73,4 +73,20 @@ CUDA_VISIBLE_DEVICES=0 python detect.py \
 ```
 python generate_deblack_reference_test.py
 ```
+
+Then:
+
+```
+bash swin_test_ref.sh
+bash vit_test_ref.sh
+bash t2t_test_ref.sh
+bash 50_test_ref.sh
+bash 50X_test_ref.sh
+bash 50SK_test_ref.sh
+```
+Then:
+```
+python agg_test_ref.py
+```
+You will get ```reference_descriptors.npz``` in the submission file.
 

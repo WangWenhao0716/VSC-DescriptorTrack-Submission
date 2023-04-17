@@ -17,6 +17,7 @@ Assuming we have downloaded the training and test reference datasets, and stored
 1. We first transform ```/raid/VSC/data/test/reference/``` into images using ```imageio``` by:
 
 ```
+bash video2images_ref.sh
 ```
 Note we have transformed the ```/raid/VSC/data/train/reference/``` into images in the training section.
 

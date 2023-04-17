@@ -64,10 +64,13 @@ You should re-run the ```bash xxx.sh``` until the number of images in ```/raid/V
 ## Generate the training data from VSC
 
 1. Transfer the query videos into images using ```imageio```:
-
+```
+bash video2images_query.sh
+```
 2. Transfer the reference videos into images using ```imageio```:
-
-
+```
+bash video2images_ref.sh
+```
 3. Select one image from each video to train:
 
 

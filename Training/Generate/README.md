@@ -86,5 +86,7 @@ bash train_v1_s3_r_all.sh
 ```
 
 5. Generate the training pairs (from reference images and query images) with $?$ positive pairs:
- 
+```
+python generate_pair.py
+```
 

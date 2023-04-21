@@ -36,7 +36,7 @@ The ```Test``` folder shows the submitted code to extract query features plus th
 @article{wang2023feature,
   title={Feature-compatible Progressive Learning for Video Copy Detection},
   author={Wang, Wenhao and Sun, Yifan and Yang, Yi},
-  journal={arXiv preprint arXiv:2304.xxxxx},
+  journal={arXiv preprint arXiv:2304.10305},
   year={2023}
 }
 ```

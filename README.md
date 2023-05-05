@@ -2,7 +2,7 @@
 The codes and related files to reproduce the results for [Video Similarity Challenge Descriptor Track](https://www.drivendata.org/competitions/101/meta-video-similarity-descriptor/) (CVPR2023).
 
 ## Required dependencies
-To begin with, you should follow the [official environment](https://github.com/drivendataorg/meta-vsc-descriptor-runtime/blob/main/runtime/environment-gpu.yml) to install the packages. Please install timm by ```pip install timm==0.4.12```. Note that some unimportant packages may be missing, please install them using pip directly when an error occurs. The minimum requirment for training is 4 Nvidia A100 40G GPUs, and for reference, you should have 1 Nvidia V100 16G GPU at least. 
+To begin with, you should install the packages according to the `environment.yaml` file in this directory. Then install the `GNU parallel` by ```sudo apt-get install parallel``` (For Ubuntu). The minimum requirment for training is 4 Nvidia A100 40G GPUs, and for reference, you should have 1 Nvidia V100 16G GPU at least. 
 
 ## Pre-trained models
 

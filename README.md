@@ -8,11 +8,11 @@ To begin with, you should install the packages according to the `environment.yam
 
 We use $7$ ImageNet-pre-trained models. Please download them from the provided links as below:
 
-0. CotNet50: [Google Drive](https://drive.google.com/file/d/1-CVORVrELHFph45VNgAJmz_Fg8XHCxO1/view?usp=share_link);
+0. CotNet50: [Google Drive](https://drive.google.com/file/d/1SR5ezIu7LN943zHaUh4mC0ehxBVMqtfv/view); The original project is [CoTNet](https://github.com/JDAI-CV/CoTNet).
 
 1. ResNet50: No need to download manually;
 
-2. SKNet50: [Google Drive](https://drive.google.com/file/d/1h6V3zhWGB_kCAIuXimPWKZnLlu21T7T8/view?usp=share_link);
+2. SKNet50: [Google Drive](https://drive.google.com/file/d/1h6V3zhWGB_kCAIuXimPWKZnLlu21T7T8/view?usp=share_link); The original project is [SKNet-PyTorch](https://github.com/developer0hye/SKNet-PyTorch/tree/master). Because it does not include the pre-trained models, please download the ```sknet.py``` file in this repository and follow the instruction in the ```Pretrain``` folder.
 
 3. Resnext50_32x4d: No need to download manually;
 
@@ -20,7 +20,7 @@ We use $7$ ImageNet-pre-trained models. Please download them from the provided l
 
 5. Swin: No need to download manually;
 
-6. T2T: [Google Drive](https://drive.google.com/file/d/1-BdI3QKFAsYsv9Zd2GtaXefHqBFE2Dad/view?usp=share_link).
+6. T2T: [Google Drive](https://github.com/yitu-opensource/T2T-ViT/releases/download/main/81.5_T2T_ViT_14.pth.tar); The original project is [T2T-ViT](https://github.com/yitu-opensource/T2T-ViT).
 
 ## Training
 

@@ -1,6 +1,6 @@
 ## Prepare
 
-Please download the required trained models and store them in ```./```:
+Please download the required trained models and store them in ```./``` (Please refer to `~/Test/Prepare/` for the training process.): 
 
 1. [`best_20230101.pt`](https://drive.google.com/file/d/1N5B0nek4wYFeLj-KZJz0SUfAkpKoDNUV/view?usp=share_link)
 

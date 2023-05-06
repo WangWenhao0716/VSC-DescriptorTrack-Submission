@@ -1,11 +1,7 @@
 # Test
-You can directly download and unzip our [submitted file](https://drive.google.com/file/d/1--OST0kIrNsLBa7MCArztV9u46pKjcip/view?usp=share_link) (including all the trained models, and all other necessary files), then by running
-```
-conda run --no-capture-output -n condaenv python main.py
-```
-you will get the query features. 
 
-However, because the file only includes extracted reference features and normalization features, we show how to get these two kinds of features here.
+Before entering the `query` folder, we should prepare the required files:
+
 
 Assuming we have downloaded the training and test reference datasets, and stored as follows:
 
@@ -51,7 +47,7 @@ Then:
 ```
 python agg_train_ref.py
 ```
-You will get ```ensemble_6_t_512_crop_rotate_bw_gt_ng_1_cls_FIN.hdf5``` in the submission file.
+You will get ```ensemble_6_t_512_crop_rotate_bw_gt_ng_1_cls_FIN.hdf5```.
 
 3. Get the test reference features:
 
@@ -85,5 +81,22 @@ bash 50X_test_ref.sh
 bash 50SK_test_ref.sh
 python agg_test_ref.py
 ```
-You will get ```reference_descriptors.npz``` in the submission file.
+You will get ```reference_descriptors.npz```.
+
+After doing this, you should copy the trained models and extracted features (detailed as below) in to the ```query``` folder.
+1. ```train_v1_swin_s3_512_twolosses_com_L2_norm_100_all_tune_bw_gt_ng_1_cls_resize_FIN.pth.tar```
+
+2. ```train_v1_vit_s3_512_twolosses_com_L2_norm_100_all_tune_bw_gt_ng_1_cls_resize_FIN.pth.tar```
+
+3. ```train_v1_t2t_s3_512_twolosses_com_L2_norm_100_all_tune_bw_gt_ng_1_cls_resize_FIN.pth.tar```
+
+4. ```train_v1_50_s3_512_twolosses_com_L2_norm_100_all_tune_bw_gt_ng_2_cls_FIN.pth.tar```
+
+5. ```train_v1_50X_s3_512_twolosses_com_L2_norm_100_all_tune_bw_gt_ng_2_cls_FIN.pth.tar```
+
+6. ```train_v1_50SK_s3_512_twolosses_com_L2_norm_100_all_tune_bw_gt_ng_2_cls_FIN.pth.tar```
+
+7. ```ensemble_6_t_512_crop_rotate_bw_gt_ng_1_cls_FIN.hdf5```
+
+8. ```reference_descriptors.npz```
 

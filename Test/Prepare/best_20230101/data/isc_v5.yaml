@@ -1,0 +1,9 @@
+# train and val datasets (image directory or *.txt file with image paths)
+train: /raid/VSC/yolov5/isc_v5/images/train/
+val: /raid/VSC/yolov5/isc_v5/images/val/
+
+# number of classes
+nc: 1
+
+# class names
+names: ['Overlay']

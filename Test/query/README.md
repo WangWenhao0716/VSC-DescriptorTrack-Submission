@@ -1,9 +1,23 @@
 ## Prepare
 
-Please download the required trained models here:
+Please download the required trained models and store them in ```./```:
 
 1. [`best_20230101.pt`](https://drive.google.com/file/d/1N5B0nek4wYFeLj-KZJz0SUfAkpKoDNUV/view?usp=share_link)
 
 2. [`rotate_detect.pth`](https://drive.google.com/file/d/1lQRvr8t_y3Pexb9PDzH6RzQDwXzOqVcc/view?usp=share_link)
 
 ## Run
+We assume the queries are stored as follows:
+```
+ROOT_DIRECTORY = "/code_execution/"
+DATA_DIRECTORY = "/data/"
+QRY_VIDEOS_DIRECTORY = DATA_DIRECTORY + "query/"
+OUTPUT_FILE = ROOT_DIRECTORY + "subset_query_descriptors.npz"
+QUERY_SUBSET_FILE = DATA_DIRECTORY + "query_subset.csv"
+```
+
+By running:
+```
+conda run --no-capture-output -n condaenv python main.py
+```
+You can get the query features.

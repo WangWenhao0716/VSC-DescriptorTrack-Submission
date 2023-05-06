@@ -14,7 +14,7 @@ Please first enter the ```rotate_detect``` folder by ```cd rotate_detect```, and
 wget https://github.com/SwinTransformer/storage/releases/download/v1.0.8/swin_small_patch4_window7_224_22k.pth
 ```
 
-2. The training dataset is auto-generated (by rotating images from  DISC21 90, 180, 270 degrees), you can directly download from [here](), and unzip by:
+2. The training dataset is auto-generated (by rotating images from  DISC21 90, 180, 270 degrees), you can directly download from [here](https://drive.google.com/file/d/12N0pXF2dP1NNRvXnJZKzGtGajnQAwRtZ/view?usp=share_link), and unzip by:
 ```
 tar -xvf rotate_images.tar
 ```

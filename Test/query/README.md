@@ -44,6 +44,11 @@ OUTPUT_FILE = ROOT_DIRECTORY + "query_descriptors.npz"
 QUERY_SUBSET_FILE = DATA_DIRECTORY + "query.csv"
 ```
 
+Before zipping, you should remove the feature folder by:
+```
+rm -rf feature
+```
+
 Given the copied, downloaded, and generated files, together with the code in this folder, we can get the `submission.zip` by:
 
 ```

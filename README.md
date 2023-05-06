@@ -8,7 +8,7 @@ To begin with, you should install the packages according to the `environment.yam
 
 We use $7$ ImageNet-pre-trained models. Please download them from the provided links as below:
 
-0. CotNet50: [Google Drive](https://drive.google.com/file/d/1SR5ezIu7LN943zHaUh4mC0ehxBVMqtfv/view); The original project is [CoTNet](https://github.com/JDAI-CV/CoTNet).
+0. CotNet50: [download_from_original_repo](https://drive.google.com/file/d/1SR5ezIu7LN943zHaUh4mC0ehxBVMqtfv/view); The original project is [CoTNet](https://github.com/JDAI-CV/CoTNet).
 
 1. ResNet50: No need to download manually;
 
@@ -20,7 +20,7 @@ We use $7$ ImageNet-pre-trained models. Please download them from the provided l
 
 5. Swin: No need to download manually;
 
-6. T2T: [Google Drive](https://github.com/yitu-opensource/T2T-ViT/releases/download/main/81.5_T2T_ViT_14.pth.tar); The original project is [T2T-ViT](https://github.com/yitu-opensource/T2T-ViT).
+6. T2T: [download_from_original_repo](https://github.com/yitu-opensource/T2T-ViT/releases/download/main/81.5_T2T_ViT_14.pth.tar); The original project is [T2T-ViT](https://github.com/yitu-opensource/T2T-ViT).
 
 ## Training
 

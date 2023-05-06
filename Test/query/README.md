@@ -6,6 +6,15 @@ Please download the required trained models and store them in ```./```:
 
 2. [`rotate_detect.pth`](https://drive.google.com/file/d/1lQRvr8t_y3Pexb9PDzH6RzQDwXzOqVcc/view?usp=share_link)
 
+
+## The way to get the `submission.zip`
+
+Given the copied and downloaded files, together with the code in this folder, we can get the `submission.zip` by:
+
+```
+zip -r submission.zip ./*
+```
+
 ## Run
 We assume the queries are stored as follows:
 ```
@@ -21,3 +30,6 @@ By running:
 conda run --no-capture-output -n condaenv python main.py
 ```
 You can get the query features.
+
+
+

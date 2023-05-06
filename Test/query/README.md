@@ -9,6 +9,11 @@ Please download the required trained models and store them in ```./```:
 
 ## The way to get the `submission.zip`
 
+First get the ```timm-0.4.12-py3-none-any.whl``` by: 
+```
+wget https://files.pythonhosted.org/packages/90/fc/606bc5cf46acac3aa9bd179b3954433c026aaf88ea98d6b19f5d14c336da/timm-0.4.12-py3-none-any.whl
+```
+
 Given the copied and downloaded files, together with the code in this folder, we can get the `submission.zip` by:
 
 ```

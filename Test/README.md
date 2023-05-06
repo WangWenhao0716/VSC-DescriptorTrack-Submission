@@ -83,6 +83,8 @@ python agg_test_ref.py
 ```
 You will get ```reference_descriptors.npz```.
 
+## Copy
+
 After doing this, you should copy the trained models and extracted features (detailed as below) in to the ```query``` folder.
 1. ```train_v1_swin_s3_512_twolosses_com_L2_norm_100_all_tune_bw_gt_ng_1_cls_resize_FIN.pth.tar```
 

@@ -42,7 +42,7 @@ mkdir weights && cd weights
 wget https://github.com/ultralytics/yolov5/releases/download/v7.0/yolov5x.pt
 ```
 
-2. The training dataset is auto-generated (by adding random overlay to images from DISC21), you can directly download from [here](), and unzip by:
+2. The training dataset is auto-generated (by adding random overlay to images from DISC21), you can directly download from [here](https://drive.google.com/file/d/1-2mniqP36BKqKwy-Frk6EqIHOZnN_7v0/view?usp=share_link), and unzip by:
 ```
 tar -xvf isc_v3.tar
 ```

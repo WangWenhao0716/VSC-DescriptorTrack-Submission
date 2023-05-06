@@ -217,7 +217,7 @@ def main():
     #query_subset_video_ids = query_subset.video_id.values.astype("U")
 
     print("Install packages")
-    os.system("conda run --no-capture-output -n condaenv python -m pip install imageio_ffmpeg-0.4.8-py3-none-manylinux2010_x86_64.whl --force-reinstall")
+    #os.system("conda run --no-capture-output -n condaenv python -m pip install imageio_ffmpeg-0.4.8-py3-none-manylinux2010_x86_64.whl --force-reinstall")
     os.system("conda run --no-capture-output -n condaenv python -m pip install timm-0.4.12-py3-none-any.whl")
     #os.system("conda uninstall opencv -n condaenv -y")
     #os.system("conda run --no-capture-output -n condaenv python -m pip install opencv_python-4.5.4.60-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl --no-deps --force-reinstall")

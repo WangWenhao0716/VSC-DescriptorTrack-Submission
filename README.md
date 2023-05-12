@@ -1,4 +1,4 @@
-# VSC-DescriptorTrack-Submission
+# VSC-DescriptorTrack-Submission ($2^{nd}$ Solution)
 The codes and related files to reproduce the results for [Video Similarity Challenge Descriptor Track](https://www.drivendata.org/competitions/101/meta-video-similarity-descriptor/) (CVPR2023).
 
 ## Required dependencies
